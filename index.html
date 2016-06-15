@@ -4,7 +4,8 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Responsive HTML Email</title>
 	<style>
-	html, body {padding: 0; margin: 0;}
+	html, body {padding: 0; margin: 0; font-family: sans-serif; color: #153643;}
+	a {color: #ffffff; text-decoration: none;}
 	.content {width: 100%; max-width: 600px;}
 	.innerpadding {padding: 40px 30px 20px 30px;}
 	.borderbottom {border-bottom: 1px solid #dddddd;}
@@ -12,9 +13,11 @@
 	.h1, .h2 {font-size: 26px; color: #153643; font-family: sans-serif; letter-spacing: 1px; font-weight: bold;}
 	.h2 {font-size: 18px; padding-bottom: 15px; font-weight: normal;}
 	.p {font-size: 18px; font-family: sans-serif;}
+	.portrait {padding: 0 20px 20px 0;}
+	.t-shirts {padding: 0 20px 0 20px;}
 	.col430 {width: 100%; max-width: 400px;}
-	img {padding: 0 20px 20px 0;}
 	.button {width: 40px; padding: 10px 20px 10px 20px; color: #ffffff;}
+	.merchandise {padding-top: 8px;}
 	</style>
 </head>
 <body bgcolor="#eeeeee">
@@ -34,11 +37,11 @@
 						</td>
 					</tr>
 					<tr>
-						<td class="innerpadding">
+						<td class="innerpadding borderbottom">
 							<table width="70" align="left" border="0" align="center" cellpadding="0" cellspacing="0">
 								<tr>
 									<td>
-										<img src="img/berthe_morisot.png" alt="" />
+										<img class="portrait" src="img/berthe_morisot.png" alt="" />
 									</td>
 								</tr>
 							</table>
@@ -53,11 +56,85 @@
 										<table border="0" cellpadding="0" cellspacing="0">
 											<tr>
 												<td class="p button" bgcolor="#e74c3c">
-													Subscribe
+													<a href="#">Subscribe</a>
 												</td>
 											</tr>
 										</table>
 									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="innerpadding borderbottom">
+							<table align="center" border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td>
+										<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+											<tr>
+												<td class="h1 textcentered" style="padding-bottom: 15px;">
+													Check out our merchandise!
+												</td>
+											</tr>
+										</table>
+										<table class="t-shirts" class="" align="left" border="0" cellpadding="0" cellspacing="0">
+											<tr>
+												<td style="padding-top: 15px;">
+													<a href="#">
+														<img src="img/logo_tshirt.png" alt="" />
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="merchandise" style="text-align: center;">Cool Shirt</td>
+											</tr>
+											<tr>
+												<td class="merchandise" style="text-align: center;">$14.99</td>
+											</tr>
+										</table>
+										<table class="t-shirts" align="left" border="0" cellpadding="0" cellspacing="0">
+											<tr>
+												<td style="padding-top: 15px;">
+													<a href="#">
+														<img src="img/logo_tshirt.png" alt="" />
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="merchandise" style="text-align: center;">Cool Shirt</td>
+											</tr>
+											<tr>
+												<td class="merchandise" style="text-align: center;">$14.99</td>
+											</tr>
+										</table>
+										<table class="t-shirts" align="left" border="0" cellpadding="0" cellspacing="0">
+											<tr>
+												<td style="padding-top: 15px;">
+													<a href="#">
+														<img src="img/logo_tshirt.png" alt="" />
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td class="merchandise" style="text-align: center;">Cool Shirt</td>
+											</tr>
+											<tr>
+												<td class="merchandise" style="text-align: center;">$14.99</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td class="innerpadding" bgcolor="#44525f">
+							<table align="center" border="0" cellpadding="0" cellspacing="0" style="color: #ffffff; font-size: 15px; text-align: center;">
+								<tr>
+									<td>Specializing in inordinate amounts of</td>
+								</tr>
+								<tr>
+									<td>HTML Email Bullshit!!! :D</td>
 								</tr>
 							</table>
 						</td>
